@@ -1,0 +1,34 @@
+# Node.js (if you're using Node.js or npm)
+node_modules/
+
+# Dependency directories
+bower_components/
+
+# Build output directories
+dist/
+build/
+
+# Logs
+*.log
+
+# OS-generated files (macOS, Windows, Linux)
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Editor/IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Temporary files created by text editors
+*.swp
+*.swo
+
+# Environment variables (if you're using dotenv for sensitive information)
+.env
+
+# Package files (if you're using npm or Yarn)
+package-lock.json
+yarn.lock
