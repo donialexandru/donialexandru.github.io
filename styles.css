@@ -3,6 +3,9 @@
   --primaryColor: #43281c;
   --secondaryColor: #333d29;
 }
+body {
+  font-family: "Open Sans", sans-serif;
+}
 
 header {
   position: fixed;
