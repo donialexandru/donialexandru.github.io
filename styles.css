@@ -15,6 +15,15 @@ header {
   z-index: 1000;
   background: blue;
 }
+.navlink {
+  padding: 10;
+  background: yellow;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
 
 footer {
   position: fixed;
