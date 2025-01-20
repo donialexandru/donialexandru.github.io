@@ -1,7 +1,27 @@
 :root {
+  --color-primary-1: #c6bbec;
+  --color-primary-2: #8e79d9;
+  --color-primary-3: #6c50cd;
+  --color-secondary-1: #c3d9ed;
+  --color-secondary-2: #aed0ef;
+  --color-secondary-3: #90bfe9;
+  --color-accent-1: #e5dea4;
+  --color-accent-2: #d9cf79;
+  --color-accent-3: #cdc050;
+  --color-grey-100: #f5f6f6;
+  --color-grey-300: #cdc9d8;
+  --color-grey-500: #877fa0;
+  --color-grey-700: #645790;
+  --color-grey-800: #1e1636;
+  --font-main: "Open Sans", serif;
 }
+
+html {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--font-main);
 }
 
 header {
@@ -10,7 +30,7 @@ header {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: blue;
+  background: var(--color-primary-3);
 }
 .navlink {
   padding: 10;
