@@ -19,6 +19,9 @@
 html {
   box-sizing: border-box;
 }
+a {
+  color: var(--color-grey-800);
+}
 a > svg {
   pointer-events: none;
 }
