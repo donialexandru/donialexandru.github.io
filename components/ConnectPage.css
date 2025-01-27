@@ -1,0 +1,27 @@
+h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 32px;
+  text-decoration: none;
+  text-transform: none;
+}
+p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 28px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.linkedin-text {
+  color: var(--color-primary-3);
+}
+.connect-text {
+  color: var(--color-primary-3);
+}
+
+a {
+  text-decoration: none;
+}
