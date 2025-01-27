@@ -22,12 +22,17 @@ const Router = {
     let pageElement = null;
     switch (route) {
       case "/":
-        pageElement = document.createElement("h1");
-        pageElement.textContent = "This is home page";
+        pageElement = document.createElement("home-page");
+        break;
+
+      case "/about":
+        pageElement = document.createElement("about-page");
         break;
       case "/projects":
-        pageElement = document.createElement("h1");
-        pageElement.textContent = "This is the projects page";
+        pageElement = document.createElement("projects-page");
+        break;
+      case "/connect":
+        pageElement = document.createElement("connect-page");
         break;
     }
 
