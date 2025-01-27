@@ -1,0 +1,93 @@
+h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 32px;
+  text-decoration: none;
+  text-transform: none;
+}
+h5 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 28px;
+  text-decoration: none;
+  text-transform: none;
+}
+h6 {
+  font-size: 1rem;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 24px;
+  text-decoration: none;
+  text-transform: none;
+  text-align: center;
+  margin: 0;
+}
+p {
+  font-size: 0.875rem;
+  font-family: Open Sans;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: none;
+  margin: 0;
+  padding: 0 8px;
+}
+.projects-text {
+  color: var(--color-primary-3);
+}
+.projects {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.projects-cards {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 256px;
+  height: 285px;
+  padding-bottom: 8px;
+  background-color: var(--color-secondary-3);
+  border-radius: 4px;
+  box-shadow: 4px 4px 4px var(--color-primary-1);
+}
+.card > img {
+  width: 256px;
+  height: 112px;
+  border-radius: 4px 4px 0 0;
+}
+
+.project-button {
+  display: flex;
+  flex-flow: row;
+  flex-basis: content;
+  align-items: center;
+  gap: 4px;
+  width: max-content;
+  background-color: var(--color-accent-3);
+  color: var(--color-gray-800);
+  border-radius: 16px;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+
+.github-button-text {
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 16px;
+  text-decoration: none;
+  text-transform: none;
+}
